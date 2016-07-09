@@ -1,0 +1,9 @@
+<h1>Megas#index</h1>
+<% @results.each do |num| %>
+<ul>
+	<li><%= num.draw_date %></li>
+	<li><%= num.winning_numbers %></li>
+	<li><%= num.mega_ball %></li>
+	<li><%= num.multiplier%></li>
+</ul>
+<% end %>
